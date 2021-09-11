@@ -1,46 +1,79 @@
-# Getting Started with Create React App
+<h1 align="center">{devchallenges}</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+</div>
+<div align="center">
+  <h3>
+    <a href="https://clever-cray-e94b3b.netlify.app/">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://github.com/yogeshdatir/devchallenges">
+      Solution
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY">
+      Challenge
+    </a>
+  </h3>
+</div>
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [Built With](#built-with)
+- [Features](#features)
+- [How to use](#how-to-use)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
 
-### `yarn start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![image-20210911090919269](F:\My workspace\Frontend challenges\Projects\devchallenges\README.assets\image-20210911090919269.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- You can visit demo site here: https://clever-cray-e94b3b.netlify.app/
+- This was a very lucrative learning experience for me. It switches or adds CSS classes to the button based on the props values provided by the user.
+- This project helped me to learn to create reusable UI components. Such components can be helpful make code more readable and maintenance friendly. 
+- This type of projects are helpful to understand how to create separation of concerns - separating presentation part of component from logical code. This helps to locate issues easily and extend the code without much hassle. :)
 
-### `yarn test`
+### Built With
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [React](https://reactjs.org/)
+- CSS3
 
-### `yarn build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY) was to build an application to complete the given user stories.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## How To Use
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- This is an example, please update according to your application -->
 
-### `yarn eject`
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) as well as yarn to be installed on your computer. From your command line:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+# Clone this repository
+$ git clone https://github.com/yogeshdatir/devchallenges
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Install dependencies
+$ yarn install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Run the app
+$ yarn start
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Acknowledgements
 
-## Learn More
+<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
+- [Node.js](https://nodejs.org/)
+- [Marked - a markdown parser](https://github.com/chjj/marked)
+- [How to Build Flexible Button Components in React](https://www.youtube.com/watch?v=JfNjGLGaxR4&feature=youtu.be)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contact
+
+- Website [My portfolio](https://portfolio-yogeshd.herokuapp.com/)
+- GitHub [@yogeshdatir](https://github.com/yogeshdatir)
+
