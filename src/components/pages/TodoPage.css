@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 2rem 25%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.heading {
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: -0.045em;
+  margin-bottom: 3rem;
+
+  color: #333333;
+}

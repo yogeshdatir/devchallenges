@@ -1,0 +1,19 @@
+.footer {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #a9a9a9;
+}
+
+.footer a {
+
+  color: #a9a9a9;
+  font-weight: bold;
+
+}

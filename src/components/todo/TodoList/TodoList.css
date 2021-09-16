@@ -1,0 +1,72 @@
+.todo-list {
+  margin: 1rem 0;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+
+.task input {
+  height: 20px;
+  width: 20px;
+  border: 1px solid #828282;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 0;
+  margin-right: 7px;
+}
+
+.task span {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.task input:checked ~ span {
+  text-decoration: line-through;
+}
+
+.delete-icon {
+  margin-right: 10px;
+  margin-left: auto;
+  fill: #bdbdbd !important;
+  cursor: pointer;
+}
+
+.delete-icon:hover {
+  fill: #000 !important;
+}
+
+.delete {
+  display: flex;
+}
+
+.delete button {
+  margin-left: auto;
+  background: #eb5757;
+  border-radius: 4px;
+  padding: 1rem 2rem;
+  border: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.delete svg {
+  width: 12px;
+  margin-right: 8px;
+}
