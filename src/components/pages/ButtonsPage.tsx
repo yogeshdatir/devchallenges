@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../buttons/Button";
+import Footer from "../Footer";
 import "./ButtonsPage.css";
 
 interface Props {}
@@ -128,6 +129,7 @@ const ButtonsPage = (props: Props) => {
           </Button>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

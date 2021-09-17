@@ -1,10 +1,11 @@
 import React from "react";
 import "./App.css";
+import InputsPage from "./components/pages/InputsPage";
 // import ButtonsPage from "./components/pages/ButtonsPage";
-import TodoPage from "./components/pages/TodoPage";
+// import TodoPage from "./components/pages/TodoPage";
 
 function App() {
-  return <TodoPage />;
+  return <InputsPage />;
 }
 
 export default App;

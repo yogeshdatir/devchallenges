@@ -1,0 +1,149 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: max-content;
+}
+
+/* default input */
+.input {
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+
+  /* Gray 1 */
+
+  color: #333333;
+  width: 200px;
+  padding: 18px 12px;
+  border: 1px solid #828282;
+  box-sizing: border-box;
+  border-radius: 8px;
+  outline: none;
+  margin-top: 1.3rem;
+  transition: all 0.1s ease-in-out;
+}
+
+.input::placeholder {
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+
+  /* Gray 3 */
+
+  color: #828282;
+}
+
+.input:not([disabled]):hover,
+.input.input-hover {
+  border: 1px solid #333333;
+}
+
+.input:not([disabled]):focus,
+input.input-focus {
+  border: 1px solid #2962ff;
+}
+
+.input-label {
+  transition: all 0.1s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #333333;
+}
+
+.input:not([disabled]):focus ~ .input-label,
+.input:not([disabled]):focus ~ .helper-text,
+.input-focus ~ .input-label {
+  color: #2962ff;
+}
+
+/* error input */
+.input-error {
+  border: 1px solid #d32f2f;
+}
+
+.input-error ~ .input-label {
+  color: #d32f2f;
+}
+
+.input-error:not([disabled]):hover,
+.input-error.input-hover {
+  border: 1px solid #333333;
+}
+
+.input-error:not([disabled]):hover ~ .input-label,
+.input-error:not([disabled]):hover ~ .helper-text,
+.input-error.input-hover ~ .input-label {
+  color: #333333;
+}
+
+.input-error:not([disabled]):focus,
+.input-error.input-focus {
+  border: 1px solid #d32f2f;
+}
+
+.input-error:not([disabled]):focus ~ .input-label,
+.input-error:not([disabled]):focus ~ .helper-text,
+.input-error.input-focus ~ .input-label {
+  color: #d32f2f;
+}
+
+/* disabled input */
+.input-disabled {
+  border: 1px solid #e0e0e0;
+  background: #f2f2f2;
+}
+
+/* helperText */
+.helper-text {
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.input ~ .helper-text {
+  color: #828282;
+}
+
+.input-error ~ .helper-text {
+  color: #d32f2f;
+}
+
+.input-start-icon ~ svg {
+  fill: #828282;
+  position: absolute;
+  top: 35px;
+  left: 12px;
+  width: 18px;
+}
+
+.input-start-icon {
+  padding-left: 2.5rem;
+}
+
+.input-end-icon ~ svg {
+  fill: #828282;
+  position: absolute;
+  top: 35px;
+  right: 12px;
+  width: 18px;
+}
+
+.input-sm {
+  padding: 10px 12px;
+}
+
+.input-fullWidth {
+  width: 100vw;
+}
+
+textarea {
+  resize: none;
+}

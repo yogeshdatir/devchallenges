@@ -22,6 +22,10 @@
   min-width: 200px;
 }
 
+.full-width-block {
+  width: 100%;
+}
+
 .tags {
   font-family: "Ubuntu Mono", monospace;
   font-style: normal;
