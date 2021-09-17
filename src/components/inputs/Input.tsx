@@ -1,7 +1,4 @@
-import { SvgIconTypeMap } from "@material-ui/core";
-import { OverridableComponent } from "@material-ui/core/OverridableComponent";
 import React, { HTMLInputTypeAttribute, ReactElement } from "react";
-import { JsxElement } from "typescript";
 import "./Input.css";
 
 interface Props {
