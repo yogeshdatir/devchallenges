@@ -14,11 +14,10 @@
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
-  line-height: 54px;
+  font-size: 2rem;
   margin: 0;
   text-align: left;
-  width: 40%;
+  width: 400px;
   /* identical to box height */
 
   text-transform: uppercase;
@@ -30,9 +29,8 @@
 .card {
   background: #ffffff;
   border-radius: 24px;
-  width: 40%;
-  min-height: 83%;
-  padding: 2.5rem 1.5rem;
+  width: 400px;
+  padding: 2rem 1.5rem;
   box-sizing: border-box;
   position: relative;
   display: flex;
