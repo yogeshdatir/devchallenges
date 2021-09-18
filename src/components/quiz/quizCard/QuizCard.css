@@ -1,0 +1,141 @@
+.question {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  /* identical to box height */
+
+  color: #2f527b;
+  margin: 16px 0 8px 0;
+}
+
+.flag {
+  width: 0;
+  transition: width 0.3s ease-in-out;
+}
+
+.display-flag {
+  width: 84px;
+}
+
+.option {
+  background: #ffffff;
+  border: 2px solid rgba(96, 102, 208, 0.7);
+  box-sizing: border-box;
+  border-radius: 12px;
+  padding: 5px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: all 0.2s ease;
+}
+
+.option:hover {
+  background: #f9a826;
+  border: 2px solid #f9a826;
+}
+
+.option:hover .alphabet,
+.option:hover .option-text {
+  color: #fff;
+}
+
+.alphabet {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: rgba(96, 102, 208, 0.8);
+}
+
+.option-text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  /* identical to box height */
+
+  color: rgba(96, 102, 208, 0.8);
+  margin-left: 3rem;
+}
+
+.quiz-img {
+  position: absolute;
+  top: -70px;
+  right: 0;
+}
+
+.correct-answer {
+  background: #60bf88;
+  border: 2px solid #60bf88;
+}
+
+.correct-answer .alphabet,
+.correct-answer .option-text {
+  color: #fff;
+}
+
+.correct-answer:hover {
+  background: #60bf88;
+  color: #fff;
+  border: 2px solid #60bf88;
+}
+
+.correct-answer-icon {
+  display: none !important;
+  margin-left: auto;
+}
+
+.correct-answer > .correct-answer-icon {
+  display: inline-block !important;
+  fill: #fff;
+}
+
+.wrong-answer {
+  background: #ea8282;
+  border: 2px solid #ea8282;
+}
+.wrong-answer .alphabet,
+.wrong-answer .option-text {
+  color: #fff;
+}
+
+.wrong-answer:hover {
+  background: #ea8282;
+  color: #fff;
+  border: 2px solid #ea8282;
+}
+
+.wrong-answer-icon {
+  display: none !important;
+  margin-left: auto;
+}
+
+.wrong-answer > .wrong-answer-icon {
+  display: inline-block !important;
+  fill: #fff;
+}
+
+.next-cta {
+  background: #f9a826;
+  box-shadow: 0px 2px 4px rgba(252, 168, 47, 0.4);
+  border-radius: 12px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  border: none;
+  margin-top: 10px;
+  margin-left: auto;
+  cursor: pointer;
+  padding: 0.5rem 2rem;
+}

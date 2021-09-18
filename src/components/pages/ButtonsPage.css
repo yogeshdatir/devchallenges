@@ -1,5 +1,6 @@
 .container {
   padding: 3rem 5rem;
+  position: relative;
 }
 
 .header {

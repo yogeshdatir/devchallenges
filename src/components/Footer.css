@@ -9,11 +9,14 @@
   text-align: center;
 
   color: #a9a9a9;
+  position: absolute;
+  bottom: 5px;
+  margin: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 .footer a {
-
   color: #a9a9a9;
   font-weight: bold;
-
 }
