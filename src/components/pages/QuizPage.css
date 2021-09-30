@@ -1,13 +1,16 @@
-.container {
-  background: url("../../assets/background.png");
-  height: 100vh;
-  box-sizing: border-box;
+body {
+  background-image: url("../../assets/background.png");
+  background-repeat: no-repeat;
   background-size: cover;
+}
+
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
+  min-height: 90vh;
 }
 
 .heading {
@@ -24,6 +27,7 @@
 
   color: #f2f2f2;
   box-sizing: border-box;
+  margin-top: 50px;
 }
 
 .card {
@@ -36,4 +40,24 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+}
+
+.footer {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #a9a9a9;
+  padding: 15px 0;
+  margin: 0;
+}
+
+.footer a {
+  color: #a9a9a9;
+  font-weight: bold;
 }

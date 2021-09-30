@@ -18,7 +18,7 @@ const QuizPage = (props: Props) => {
     setOfCountries: countriesInQuestion,
     answerCountry,
     questionType,
-  } = useQuiz(`https://restcountries.eu/rest/v2/all?fields=name;capital;flag`);
+  } = useQuiz(`https://restcountries.com/v2/all?fields=name,capital,flag`);
 
   const [triggerForRerender, setTriggerForRerender] = useState<number>(0);
 
@@ -27,16 +27,28 @@ const QuizPage = (props: Props) => {
   };
 
   return (
-    <div className="container">
-      <p className="heading">Country Quiz</p>
+    <>
+      <div className="container">
+        <p className="heading">Country Quiz</p>
         <QuizCard
           countriesInQuestion={countriesInQuestion}
           answerCountry={answerCountry}
           questionType={questionType}
           updateTrigger={updateTrigger}
         />
-      <Footer />
-    </div>
+      </div>
+      <p className="footer">
+        created by{" "}
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://devchallenges.io/portfolio/yogeshdatir"
+        >
+          Yogesh D
+        </a>{" "}
+        - devChallenges.io
+      </p>
+    </>
   );
 };
 

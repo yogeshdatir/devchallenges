@@ -61,6 +61,7 @@ const QuizCard = ({
       Array.from(document.querySelectorAll(`.option-text`)).map((node: any) => {
         if (node.innerText === answerCountry?.name)
           node.parentNode.classList.add(`correct-answer`);
+        return null;
       });
     }
   };
